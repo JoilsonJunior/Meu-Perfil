@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 {
+  position: relative;
+  top:120px; 
   font-size: 48px;
   margin: 0;
   padding: 0;
@@ -81,8 +83,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 {
+  position: relative;
   font-size: 24px;
-  margin-top: 20px;
+  top: 150px;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -98,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links {
-  margin-top: 40px;
+  position: relative;
+  top: 190px;
   display: flex;
 }
 
@@ -143,7 +147,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  margin-top: 35px;
+  position: relative;
+  top: 170px;
 }
 
 .nav-menu ul {
