@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #header h1 {
     position: absolute;
-    top: 380px;
+    top: 390px;
     font-size: 30px;
   }
   #header h2 {
